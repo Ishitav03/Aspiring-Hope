@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Century Gothic;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url(image1.jpg);
+    height:100vh;
+    background-size: contain;
+    background-position: center;
+}
+ul{
+    float:right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+ul li{
+    display:inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+ul li.active a{
+    background-color: #fff;
+    color: #000
+}
+img{
+    width: 300px;
+	height: auto;
+	padding: 20px 20px;
+}
+.main{
+    max-width: 1400px;
+    margin: auto;
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    color: #fff;
+    font-size: 70px;
+}
+.title h2{
+	color: #ffffff;
+	font-weight: bold;
+	text-align: center;
+    font-family:"sans-serif";
+}
+
+.button{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.btn{
+    border: 2px solid #fff;
+    padding: 20px 50px;
+    color:#fff;
+    text-decoration: none;
+    transition: 0.6s ease;
+    font-size: 20px;
+}
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+}

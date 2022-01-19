@@ -1,0 +1,72 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Century Gothic;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.35)) ,url(donateimg.jpg);
+    height:100vh;
+    background-size: contain;
+    background-position: center;
+}
+ul{
+    float:right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+ul li{
+    display:inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+ul li.active a{
+    background-color: #fff;
+    color: #000
+}
+img{
+    width: 300px;
+	height: auto;
+	padding: 20px 20px;
+}
+.main{
+    max-width: 1400px;
+    margin: auto;
+}
+
+form {
+    opacity: 1;
+    height: 60vh;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 2rem 5rem 0 rgba(252, 162, 17, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 30%;
+}
+form h2{
+    align-content:  center;
+    color: wheat;
+    padding: 50px 50px;
+    font-size: 30px;
+}
+h1{
+    padding-left: 50px;
+    font-style: oblique;
+    color: white;
+}
+.form>* {
+    width: 80%;
+}
+  
+
+
